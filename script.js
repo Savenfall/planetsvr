@@ -148,20 +148,6 @@ AFRAME.registerComponent('audiohandler', {
      });
   }
         })
-          AFRAME.registerComponent('audiohandler10', {
-  init:function() {
-     let playing = false;
-     let audio = document.querySelector("#jojo");
-     this.el.addEventListener('click', () => {
-          if(!playing) {
-              audio.play();
-           } else {
-              audio.pause();
-           }
-           playing = !playing;
-     });
-  }
-        })
     AFRAME.registerComponent('ambientstop', {
     init:function() {
         let playing = false;
