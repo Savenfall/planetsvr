@@ -22,7 +22,6 @@
        <img id="uranusTexture" src="2k_uranus.jpg">
        <img id="neptuneTexture" src="2k_neptune.jpg">
        <img id="plutoTexture" src="pluto.jpg">
-       <img id="jojotexture" src="jojo.jpg">
        <audio id="ambient" src="ambient_sound.mp3" preload loop="true"></audio>
        <audio id="mercurySound" src="mercury_sound.mp3" preload loop="true"></audio>
        <audio id="venusSound" src="venus_sound.mp3" preload loop="true"></audio>
@@ -34,10 +33,8 @@
        <audio id="uranusSound" src="uranus_sound.mp3" preload loop="true"></audio>
        <audio id="neptuneSound" src="neptune_sound.mp3" preload loop="true"></audio>
        <audio id="plutoSound" src="pluto_sound.mp3" preload loop="true"></audio>
-       <audio id="jojo" src="Pillar_Men_theme.mp3" preload loop="true"></audio>
    </a-assets>
     <a-light type="point" intensity="1" position="0 5 -5"></a-light>
-    <a-plane audiohandler10 ambientstop src=#jojotexture rotation="-180 0 180" width="5" height="5" side="double"></a-plane>
      <a-sphere src=#sunTexture ambientstop opacity="1.5" shader="flat" position="0 5 -5" scale="2 2 2" animation="property: rotation; to: 0 -360 0; dur: 193946000; loop: true; easing: linear"> 
          <a-text value="SUN" width="15" height="15" position="-0.65 2 0" rotation="0 0 0" side="double"></a-text>
         <a-sphere src=#mercuryTexture audiohandler position="-7 0 -7" scale="1 1 1" animation="property: rotation; to: 0 360 0; dur: 1406000; loop: true; easing: linear" animation__mouseenter="property: scale; to: 1.3 1.3 1.3; dur: 300; startEvents: mouseenter"
